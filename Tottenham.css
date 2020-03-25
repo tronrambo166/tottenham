@@ -1,0 +1,224 @@
+*{margin:0; padding:0}
+
+#sticker{
+	
+}
+.stick {
+	position:fixed;
+	top:0px;
+	z-index:999999999999;
+}
+
+.fullwrap{
+	
+	
+	background-color:#E7FBF0;
+	width:100%;
+	height:auto;
+	z-index:100;
+	
+}
+element.style {
+    height:1660px;
+}
+
+
+h1{
+	color:grey;
+	background:navy;
+	text-align:center;
+	padding-bottom:20px;
+}
+h2{
+	color:black;
+	background:grey;
+	
+	
+}
+h3{
+	background:black;
+	border-bottom:1px solid navy;
+	color:white;
+	
+}
+
+.menu{
+	
+	width:960px;
+	height:64px;
+
+	background:black;
+	z-index:1;
+}
+
+	
+
+.midmenu{
+	width:960px;
+	height:450px;
+}
+.midmenu img{
+	width:960px;
+	height:450px;
+}
+
+
+
+.menu ul li{
+	background:navy;
+	border:1px solid white;
+	float:left;
+	list-style-type:none;
+	margin-top:10px;
+	position:relative;
+	z-index:1;
+}
+.menu ul li ul li{
+	float:none;
+	border:none;
+	background:#E7FBF0;
+	z-index:10;
+	margin-top:0px;
+	padding-right:83px;
+	border-bottom:1px solid grey;
+	
+	
+}
+.menu ul li ul li:hover{background:black;color:grey;}
+.menu ul li ul li a{
+	padding-right:20px;
+	text-align:center;
+}
+.menu ul li ul{
+	left:-99999px;
+	position:absolute;
+}
+.menu ul li:hover ul {
+	left:0;
+}
+.menu ul li:hover{background:#E7FBF0;}
+.menu2{
+	width:960px;
+	height:43px;
+
+	background:black;
+}
+.menu2 ul li{
+	background:red;
+	border:1px solid white;
+	float:left;
+	list-style-type:none;
+}
+
+
+.art p{
+	
+	padding-top:25px;
+	color:black;
+	
+	border-top:1px solid white;
+}
+.copy p
+{
+	background:grey;
+	color:white;
+	text-align:center;
+	padding:5px 0;
+}
+.art{
+	overflow:hidden;
+	width:500px;
+background:url(images/Water-wallpaper-12.jpg);
+	padding-top:25px;
+	margin:0 auto;
+	float:left;
+}
+a{
+	color:black;
+	text-decoration:none;
+	display:block;
+	padding:10px 45px;
+}
+.art img{
+	
+	width:150px;
+	height:100px;
+	float:left;
+	padding-top:35px;
+	padding-right:15px;
+}
+.im img{
+	float:none;
+	width:500px;
+	height:200px;
+	    padding-top: 0px;
+}
+.sidebar{
+	overflow:hidden;
+	width:200px;
+	
+	float:left;
+	list-style-type:none;
+	padding-top:33px;
+padding-right:30px;
+padding-bottom: 16px;
+
+}
+
+.sidebar ul{list-style-type:none;}
+.sidebar2 ul{list-style-type:none;}
+.sidebar ul li a{color:black;}
+.sidebar2 ul li a{color:black;}
+.sidebar2 {
+    padding-bottom: 105px;
+    width: 200px;
+   
+    float: right;
+    list-style-type: none;
+    padding-top: 33px;
+    padding-left: 30px;
+}
+.foot{
+	width:960px;
+	height: 248px;
+	background:url(images/milk-white-glass-500x500.jpg);
+	    margin-top: 32px;
+}
+.left{
+	float:left;
+	width:300px;
+	margin-right:30px;
+
+	
+}
+
+.middle{
+
+	margin-right:30px;
+	width:300px;
+	float:left;
+	 height: 198px
+	
+}
+.right{
+	
+	width:300px;
+	float:left;
+	
+}
+ul{
+	list-style-type:none;
+}
+.fullside{
+
+}
+
+.flow{
+	overflow:hidden;
+}
+.right img {
+    float: none;
+    width: 75px;
+    height: 33px;
+}
+
